@@ -3,5 +3,5 @@
 ## Name: 
  NFT kNeuron Factory
 ## Purpose: 
-Help me create kNeurons that design and build a project
+Help me create kNeurons that design and  helps me create a whitepaper for the DeSciWorld project
 

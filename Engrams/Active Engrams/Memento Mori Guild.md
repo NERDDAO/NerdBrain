@@ -13,3 +13,6 @@ The WoW Memento Mori NFTs project can facilitate the creation of the Memento Mor
 **5. Financial Growth:** The Memento Mori NFTs could have potential monetary value. If the Memento Mori Guild becomes renowned, these NFTs could be highly sought after. This could provide additional funding for the guild to grow and expand, supporting future endeavours such as hosting more elaborate events or developing its own game extensions.
 
 In conclusion, the WoW Memento Mori NFTs project could be integral in forming a close-knit, resilient, and thriving Memento Mori Guild. The project leverages blockchain technology for building a rich, interactive and supportive community that celebrates their hardcore gaming journey within the WoW universe.
+
+[[Memento Mori.canvas|Memento Mori Engram]]
+
