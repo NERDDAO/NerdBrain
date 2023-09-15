@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"Research Communities/zook vault/Decentralized Sports.md","type":"file","file":"Research Communities/NERD/Decentralized Sports/Decentralized Sports.md","x":0,"y":2400,"width":500,"height":500,"color":"1"},
+		{"id":"Research Communities/zook vault/Lens Protocol/Lens Protocol.md","type":"file","file":"Research Communities/NERD/Lens Protocol/Lens Protocol.md","x":1000,"y":1200,"width":500,"height":500},
+		{"id":"Research Communities/zook vault/Ludus vibe/Blue Paper.md","type":"file","file":"Research Communities/NERD/Ludus vibe/Blue Paper.md","x":1000,"y":3300,"width":500,"height":500},
+		{"id":"Research Communities/zook vault/Ludus vibe/Decentralized.md","type":"file","file":"Research Communities/NERD/Ludus vibe/Decentralized.md","x":2000,"y":1800,"width":500,"height":500},
+		{"id":"Research Communities/zook vault/Ludus vibe/Autonomous.md","type":"file","file":"Research Communities/NERD/Ludus vibe/Autonomous.md","x":2000,"y":2400,"width":500,"height":500},
+		{"id":"Research Communities/zook vault/Ludus vibe/Sports.md","type":"file","file":"Research Communities/NERD/Ludus vibe/Sports.md","x":2000,"y":3000,"width":500,"height":500},
+		{"id":"Research Communities/zook vault/Ludus vibe/Federation.md","type":"file","file":"Research Communities/NERD/Ludus vibe/Federation.md","x":2000,"y":3600,"width":500,"height":500},
+		{"id":"Research Communities/zook vault/Ludus vibe/App/Index Frontend.md","type":"file","file":"Research Communities/NERD/Ludus vibe/App/Index Frontend.md","x":2000,"y":4200,"width":500,"height":500},
+		{"id":"Research Communities/zook vault/Ludus vibe/App/coaches/Coaches.md","type":"file","file":"Research Communities/NERD/Ludus vibe/App/coaches/Coaches.md","x":2000,"y":4800,"width":500,"height":500}
+	],
+	"edges":[
+		{"id":"Research Communities/zook vault/Decentralized Sports.md-Research Communities/zook vault/Decentralized Sports.md","fromNode":"Research Communities/zook vault/Decentralized Sports.md","fromSide":"right","toNode":"Research Communities/zook vault/Decentralized Sports.md","toSide":"left"},
+		{"id":"Research Communities/zook vault/Decentralized Sports.md-Research Communities/zook vault/Lens Protocol/Lens Protocol.md","fromNode":"Research Communities/zook vault/Decentralized Sports.md","fromSide":"right","toNode":"Research Communities/zook vault/Lens Protocol/Lens Protocol.md","toSide":"left"},
+		{"id":"Research Communities/zook vault/Decentralized Sports.md-Research Communities/zook vault/Ludus vibe/Blue Paper.md","fromNode":"Research Communities/zook vault/Decentralized Sports.md","fromSide":"right","toNode":"Research Communities/zook vault/Ludus vibe/Blue Paper.md","toSide":"left"},
+		{"id":"Research Communities/zook vault/Ludus vibe/Blue Paper.md-Research Communities/zook vault/Ludus vibe/Decentralized.md","fromNode":"Research Communities/zook vault/Ludus vibe/Blue Paper.md","fromSide":"right","toNode":"Research Communities/zook vault/Ludus vibe/Decentralized.md","toSide":"left"},
+		{"id":"Research Communities/zook vault/Ludus vibe/Blue Paper.md-Research Communities/zook vault/Ludus vibe/Autonomous.md","fromNode":"Research Communities/zook vault/Ludus vibe/Blue Paper.md","fromSide":"right","toNode":"Research Communities/zook vault/Ludus vibe/Autonomous.md","toSide":"left"},
+		{"id":"Research Communities/zook vault/Ludus vibe/Blue Paper.md-Research Communities/zook vault/Ludus vibe/Sports.md","fromNode":"Research Communities/zook vault/Ludus vibe/Blue Paper.md","fromSide":"right","toNode":"Research Communities/zook vault/Ludus vibe/Sports.md","toSide":"left"},
+		{"id":"Research Communities/zook vault/Ludus vibe/Blue Paper.md-Research Communities/zook vault/Ludus vibe/Federation.md","fromNode":"Research Communities/zook vault/Ludus vibe/Blue Paper.md","fromSide":"right","toNode":"Research Communities/zook vault/Ludus vibe/Federation.md","toSide":"left"},
+		{"id":"Research Communities/zook vault/Ludus vibe/Blue Paper.md-Research Communities/zook vault/Ludus vibe/App/Index Frontend.md","fromNode":"Research Communities/zook vault/Ludus vibe/Blue Paper.md","fromSide":"right","toNode":"Research Communities/zook vault/Ludus vibe/App/Index Frontend.md","toSide":"left"},
+		{"id":"Research Communities/zook vault/Ludus vibe/Blue Paper.md-Research Communities/zook vault/Ludus vibe/App/coaches/Coaches.md","fromNode":"Research Communities/zook vault/Ludus vibe/Blue Paper.md","fromSide":"right","toNode":"Research Communities/zook vault/Ludus vibe/App/coaches/Coaches.md","toSide":"left"}
+	]
+}
