@@ -1,0 +1,9 @@
+A hyperstructure is a complex, self-organizing system that is expansive, permissionless, and immutable. It's a system that can run indefinitely without maintenance or intermediaries, and it's designed to create a positive-sum ecosystem for all participants. This makes it an ideal foundation for a metaverse, a virtual reality space where users can interact with a computer-generated environment and other users.
+
+In the context of a metaverse, a hyperstructure could serve as the underlying infrastructure that supports the creation and operation of various virtual worlds, allowing users to seamlessly move between different experiences and realities. It could also enable the creation of unique digital assets (like NFTs) and the establishment of a digital economy within the metaverse.
+
+World of Warcraft (WoW), with its expansive universe, complex gameplay, and dedicated community, could serve as a keystone of this hyperstructure-based metaverse. As a keystone, WoW would play a critical role in maintaining the balance and integrity of the metaverse.
+
+The Memento Mori project, which involves the creation of NFTs that immortalize the final moments of hardcore characters in WoW, is a perfect example of how WoW could contribute to the metaverse. These NFTs not only add a new layer of depth and meaning to the WoW universe, but they also create a bridge between the virtual world of WoW and the real world, allowing players to own a piece of the WoW universe.
+
+Furthermore, the community-driven events, achievement tokens, and the interactive memorial platform that are part of the Memento Mori project could serve as models for similar initiatives in other virtual worlds within the metaverse, thus reinforcing WoW's role as a keystone of the metaverse.
