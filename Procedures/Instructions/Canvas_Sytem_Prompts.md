@@ -3,7 +3,7 @@ tags: At0x
 ---
 ## Dungeon Master Prompt
 
-![[DM_Prompt]]
+![[DM Kneuron profile]]
 
 ## Research_Assistant
 

@@ -19,9 +19,15 @@ publish: true
 
 ## Question ID
 
-#{{title}}_YOUR_QUESTION_NAME
+#202310021907_frente_insular
 
 >[!note] Question:
->{{description}} 
+>Que es el frente insular? 
 
 # Research Links
+
+[[Frente Insular de la Reserva Marina de Galápagos]]
+[[Frente Insular de la Reserva Marina de Galápagos - Facebook]]
+[[Los tiburones que unieron una comunidad – Sin Alambrados]]
+
+
