@@ -1270,7 +1270,7 @@ Phase 8: Promoting and Nurturing a Thriving [[Sports]] Community,
 
 Encouraging Education and Development, and Fostering a Global Network of
 
-Athletes, [[Coaches]], and Fans.
+Athletes, [[Research Communities/NERD/Ludus vibe/App/coaches/Coaches]], and Fans.
 
   
 

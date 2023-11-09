@@ -1,15 +1,15 @@
-[[Sign-in]]
+[[Research Communities/NERD/Ludus vibe/App/Sign-in]]
 
-[[Event creation]]
+[[Research Communities/NERD/Ludus vibe/App/Athletes/Event creation]]
 
-[[Calendar]]
+[[Research Communities/NERD/Ludus vibe/App/Athletes/Calendar]]
 
-[[Event creation]]
+[[Research Communities/NERD/Ludus vibe/App/Athletes/Event creation]]
 
-[[Coaches]]
+[[Research Communities/NERD/Ludus vibe/App/coaches/Coaches]]
 
-[[Geolocation feature]]
+[[Research Communities/NERD/Ludus vibe/App/Athletes/Geolocation feature]]
 
-[[Ludus League]]
+[[Research Communities/NERD/Ludus vibe/App/Athletes/Ludus League]]
 
-[[Find an Athlete]]
+[[Research Communities/NERD/Ludus vibe/App/Athletes/Find an Athlete]]

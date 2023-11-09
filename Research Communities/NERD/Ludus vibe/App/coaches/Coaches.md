@@ -1,7 +1,7 @@
-[[C. Main Screen]]
+[[Research Communities/NERD/Ludus vibe/App/coaches/C. Main Screen]]
 
-[[C. Events]]
+[[Research Communities/NERD/Ludus vibe/App/coaches/C. Events]]
 
-[[C. profile]]
+[[Research Communities/NERD/Ludus vibe/App/coaches/C. profile]]
 
-[[C. Calendar]]
+[[Research Communities/NERD/Ludus vibe/App/coaches/C. Calendar]]

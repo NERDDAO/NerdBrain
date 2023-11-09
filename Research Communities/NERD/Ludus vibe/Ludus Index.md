@@ -1,8 +1,8 @@
 [[Index Frontend]]
 
-[[Blue Paper]]
+[[Research Communities/NERD/Ludus vibe/Blue Paper]]
 
-[[Champions Fund]]
+[[Research Communities/NERD/Ludus vibe/Champions Fund/Champions Fund]]
 
 [[Backend]]
 

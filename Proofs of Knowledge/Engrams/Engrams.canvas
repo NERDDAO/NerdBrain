@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"Study Questions/Philosophy/Philosophy Questions/Theory of Knowledge/Engrams/Engrams.md","width":500,"height":500,"y":300,"x":0,"type":"file","file":"Proofs of Knowledge/Study Questions/Philosophy/Philosophy Questions/Theory of Knowledge/Engrams/Engrams.md","color":"1"},
+		{"id":"Study Questions/Philosophy/Philosophy Questions/Theory of Knowledge/Engrams/Knowledge Engrams.md","width":500,"height":500,"x":1000,"y":0,"type":"file","file":"Proofs of Knowledge/Study Questions/Philosophy/Philosophy Questions/Theory of Knowledge/Engrams/Knowledge Engrams.md"},
+		{"id":"Study Questions/Philosophy/Math/Data_Science/Knowledge Graphs/NerdBrain Research/Bin/knowledge graph.md","width":500,"height":500,"x":1000,"y":600,"type":"file","file":"Proofs of Knowledge/Study Questions/Philosophy/Math/Data_Science/Knowledge Graphs/NerdBrain Research/Bin/knowledge graph.md"},
+		{"id":"Procedures/Obsidian_Hub/02 - Community Expansions/02.01 Plugins by Category/Engram Wikipedia.md","width":500,"height":500,"x":-1000,"y":0,"type":"file","file":"Coordination Hub/Obsidian_Hub/02 - Community Expansions/02.01 Plugins by Category/Engram Wikipedia.md"},
+		{"id":"Study Questions/New Questions/Engram Starter Kit/Engram Starter Kit.md","width":500,"height":500,"x":-1000,"y":600,"type":"file","file":"Proofs of Knowledge/Study Questions/New Questions/Engram Starter Kit/Engram Starter Kit.md"}
+	],
+	"edges":[
+		{"id":"Study Questions/Philosophy/Philosophy Questions/Theory of Knowledge/Engrams/Engrams.md-Study Questions/Philosophy/Philosophy Questions/Theory of Knowledge/Engrams/Knowledge Engrams.md","fromSide":"right","toSide":"left","fromNode":"Study Questions/Philosophy/Philosophy Questions/Theory of Knowledge/Engrams/Engrams.md","toNode":"Study Questions/Philosophy/Philosophy Questions/Theory of Knowledge/Engrams/Knowledge Engrams.md"},
+		{"id":"Study Questions/Philosophy/Philosophy Questions/Theory of Knowledge/Engrams/Engrams.md-Study Questions/Philosophy/Math/Data_Science/Knowledge Graphs/NerdBrain Research/Bin/knowledge graph.md","fromSide":"right","toSide":"left","fromNode":"Study Questions/Philosophy/Philosophy Questions/Theory of Knowledge/Engrams/Engrams.md","toNode":"Study Questions/Philosophy/Math/Data_Science/Knowledge Graphs/NerdBrain Research/Bin/knowledge graph.md"},
+		{"id":"Study Questions/Philosophy/Philosophy Questions/Theory of Knowledge/Engrams/Engrams.md-Procedures/Obsidian_Hub/02 - Community Expansions/02.01 Plugins by Category/Engram Wikipedia.md","fromSide":"right","toSide":"left","fromNode":"Procedures/Obsidian_Hub/02 - Community Expansions/02.01 Plugins by Category/Engram Wikipedia.md","toNode":"Study Questions/Philosophy/Philosophy Questions/Theory of Knowledge/Engrams/Engrams.md"},
+		{"id":"Study Questions/Philosophy/Philosophy Questions/Theory of Knowledge/Engrams/Engrams.md-Study Questions/New Questions/Engram Starter Kit/Engram Starter Kit.md","fromSide":"right","toSide":"left","fromNode":"Study Questions/New Questions/Engram Starter Kit/Engram Starter Kit.md","toNode":"Study Questions/Philosophy/Philosophy Questions/Theory of Knowledge/Engrams/Engrams.md"}
+	]
+}
