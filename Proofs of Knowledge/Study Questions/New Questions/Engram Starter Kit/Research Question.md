@@ -16,7 +16,7 @@ publish: true
 #202309011728_Starter_Kit
 
 >[!note] Question:
-> Whats the best way to design an Engram Starter Kit?
+> Whats a kEngram and how does it enable the proof of knowlege?
 
 # Research Links
 

@@ -53,7 +53,7 @@
 		{"id":"90f9c525ddc71697","type":"file","file":"Proofs of Knowledge/Engrams/Engram Starter Kits/Neuron Templates/Engram Research kNeuron.md","x":6824,"y":-2633,"width":522,"height":620},
 		{"id":"54f1450a3a3466ec","type":"file","file":"Proofs of Knowledge/Engrams/Data Cache/kEngram Starter Kit Design Document.md","x":4146,"y":-1319,"width":1187,"height":1919},
 		{"id":"491bd485272b4746","type":"file","file":"Proofs of Knowledge/Engrams/Data Cache/Neurons.md","x":2361,"y":-1925,"width":549,"height":500},
-		{"id":"30b8a92341cd2a89","type":"file","file":"Proofs of Knowledge/Study Questions/New Questions/Engram Starter Kit/Engram Starter Kit.md","x":-1996,"y":-1756,"width":704,"height":1000,"color":"1"}
+		{"id":"30b8a92341cd2a89","type":"file","file":"Proofs of Knowledge/Study Questions/New Questions/Engram Starter Kit/Research Question.md","x":-1996,"y":-1756,"width":704,"height":1000,"color":"1"}
 	],
 	"edges":[
 		{"id":"18212448175c84a4","fromNode":"dcb0254dd489f0ed","fromSide":"bottom","toNode":"2c80feb133001b43","toSide":"top"},

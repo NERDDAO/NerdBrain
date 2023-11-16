@@ -27,6 +27,6 @@ DeSciWorld emerges as a platform where researchers can explore funding for decen
 
 Created by DeSciWorld DAO, Science.tech is our mission in action to unlock the potential of open research. It provides tools and platforms to democratize knowledge and foster scientific innovation. Science.tech is a secure environment for research enthusiasts to host and manage their research initiatives, making science more transparent, efficient, and accessible to all.
 
-![[Part2_Docs]]
-![[Part3_Docs]]
-![[Par4_Docs]]
+![[Part2_Docs 1]]
+![[Part3_Docs 1]]
+![[Par4_Docs 1]]
