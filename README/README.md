@@ -10,6 +10,8 @@ cssclass: cornell-left cornell-border
 
 Welcome to our collaborative learning environment! We're a group of passionate learners and developers, or as we like to call ourselves, "nerds", working together to understand and advance in the world of software development and blockchain technology.
 
+![[NerdManifesto]]
+
 
 >[!cue] The Sum is greater than the parts
 
@@ -43,6 +45,8 @@ Obsidian has the most active plugin environment for any PKM software out there. 
 
 ![](https://i.imgur.com/MantluU.jpg)
 
+
+
 >[!notice] What is Nerd?
 >The Nerdquarters is the core of the Nerd community. We have created an open source community where nerds come and share information to make sense of it together. It is also a place for newcomers to ask questions and avoid repeating the same mistakes we've already learned from.
 
@@ -53,22 +57,13 @@ As we have grown we have started to interact with alot of new tools for decentra
 ## NERD DAO
 
 ![[NerdDAO]]
-
-
-
-
-
 ## Nerd DAO  Metaverse Manifesto
 
 ![[Nerd_Dao_Metaverse_Manifesto]]
 
 
-
-
 >[!notice] What decentralized networks enable for collaboration
 >Incentive structures that foster collaboration are more efficient than traditional work arrangements
-
-
 
 
 >[!cue] Competitive edge
@@ -99,40 +94,9 @@ In the notes from [[Σ🧠Ξ]], several key points are mentioned regarding decen
 ![[Quickstart Guide]] explains how to get the vault, install it and get started using the NerdBrain
 ## Recommended Plugins
 
-![[Plugin List]]
-
-
-
-
-
-
-## NerdBrain x ETHOS
-
-!![[NerdsEthOS]]
-
-
-
+!![[Plugin List]]
 
 ## Scope of the NERD Delegation
 
 ![[NERD_Scope]]
 
-
----
-id: "Home"
-aliases: []
-tags: []
-sticker: "emoji//1f3e0"
----
-# Index
-
-
-- [[Research Communities/NERD/Data 1/Research/Questions]]
-- [[Research Communities/NERD/Data 1/Research/Research]]
-- [[Education]]
-- [[Knowledge]]
-
-# Smart Connections
- 
-```smart-connections
-```

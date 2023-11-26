@@ -1,27 +1,39 @@
 # Proof of Knowledge Protocol 
 
->[!Index] 
-> PART I: Proof of Knowledge Protocol
->1. Abstract
->2. Introduction
->3. Introduction to kEngrams as a Unit of Knowledge
->4. Components of an Engram
->5. Engram Life-cycle
->--> Composition
->--> Addition of Value
->--> Utilization & Evolution
->
->PART II: Technical Overview
-> 1.  Engram Creation
->     --> Utilizing Ethereum Attestation Service (EAS) in the Proof of Knowledge (PoK) Protocol
-> 	--> Defining a kEngram Schema for Proof of Knowledge
-> 2. Validation of Engrams
-> 	--> Coherence and The Role Of The Human Operator
-> 	--> Local to Global Coherence
-> 3. Knowledge Validation & Value Attribution
-> 	--> The Role of the Search System and User Metrics
-> 4. Engram Evolution
-> 5. Conclusion
+>[!index]
+>## PART I: Proof of Knowledge Protocol 
+ >   - Abstract
+  >  - Introduction
+  >  - Proof of Knowledge Definition
+   > - Introduction to kEngrams as a Unit of Knowledge
+> 	- Components of an Engram
+>    - Engram Life-cycle
+   >     - Composition
+>    - Addition of Value
+>   - Utilization & Evolution
+> - Utilizing Ethereum Attestation Service (EAS) in the Proof of Knowledge (PoK) Protocol
+>    - Composable knowledge creation
+>      - What is Composability?
+>        - Referenced Attestations: The Key
+>    - Coherence and The Role Of The Human Operator
+>    - Local to Global Coherence
+>    - Knowledge Validation & Value Attribution
+>        - The Role of the Search System and User Metrics
+ >   - Engram Evolution
+ >   - Conclusion
+ >  ## PART II: Technical Overview
+> - Defining a kEngram Schema for Proof of Knowledge  
+> - Engram Creation
+ >  - The Attestation Record
+  > - Understanding the Attestation Record
+ >  - Engram Attestation
+  >   - Attester Resolver
+ >  - Referenced Attestations
+>- Validation of Engrams
+>- Proof of Knowledge DSW Issuance
+> ## PART III: Tokenomic Overview
+>    - Token Issuance
+>    - Token Utility
 
 
 
@@ -44,27 +56,35 @@ The Proof of Knowledge (PoK) protocol is built around the attestation of **kEngr
 
 ![[Pasted image 20231113085501.png]]
 
-### Introduction to kEngrams as a Unit of Knowledge 
 
-kEngrams can be defined as a structured unit or node of knowledge within a Knowledge Graph. It's a piece of information that is interconnected within a broader landscape of data, contributing to the broader understanding of a concept or topic.
 
----
+## Introduction to kEngrams as a Unit of Knowledge 
 
----
+### Definition
 
-# Components of an Engram
-![[Pasted image 20231116101250.png]]
+An **engram** is a unit of cognitive  information imprinted in a physical substance, theorized to be the means by which memories are stored as biophysical or biochemical changes in the brain or other biological tissue, in response to external stimuli.
+
+**kEngrams**  can be defined as a structured unit or node of knowledge within a Knowledge Graph. It's a piece of information that is interconnected within a broader landscape of data, contributing to the broader understanding of a concept or topic.
+
+### Components of an Engram
+
 An Engram consists of several integral components that collectively contribute to its formation and execution:
 
 1. **Research Question:** This encompasses the essential content of the query. and can exist without a reference to other notes.
 
-2. ** Research Data:** This is the base content of the Engram, formulated into a set of markdown notes that contains the information added in order to explore the study question. Research data must point to the research question or another Data Node
+2. **Research Data:** This is the base content of the Engram, formulated into a set of markdown notes that contains the information added in order to explore the study question. Research data must point to the research question or another Data Node
    
 3. **Metadata:** The Metadata provides critical information about the ownership of the engram and its historic record of usage by the DSW PoK protocol. It lends context and understanding about the contained knowledge, bolstering its relevance within the Knowledge Graph.
 
-4. **Unique Identifier:** Every Engram has a unique ID associated with it, allowing for its distinct recognition, tracking, and management within the overall Knowledge Graph system.
+5. **Unique Identifier:** Every Engram has a unique ID associated with it, allowing for its distinct recognition, tracking, and management within the overall Knowledge Graph system.
 
-5. **Relationships:** These are connections that a kEngram has among its underlying data. These relationships can be thought of as edges in the graph, defining how pieces of information are interconnected, and enabling the creation of a comprehensive, multi-dimensional structure of knowledge.
+6. **Relationships:** These are connections that a kEngram has among its underlying data. These relationships can be thought of as edges in the graph, defining how pieces of information are interconnected, and enabling the creation of a comprehensive, multi-dimensional structure of knowledge.
+
+
+![[Pasted image 20231116101250.png]]
+
+
+
 ## Engram Life-cycle
 
 The life-cycle of an Engram is a dynamic and multi-faceted process, marked by several steps: its composition, addition of value, utilization, and evolution over time. Here's a general overview of the process:
@@ -84,14 +104,16 @@ Engrams, once submitted, are then available for use. They are identified and sel
 
 ---
 
+# Composable knowledge creation
 
-### Utilizing Ethereum Attestation Service (EAS) in the Proof of Knowledge (PoK) Protocol
+Composability in the blockchain world is akin to building with LEGO bricks. Each piece, or in this case, each attestation, can stand alone, but when combined, they form a more complex and intricate structure. Let's dive into how this works with attestations.
 
-An integral component of our Proof of Knowledge (PoK) protocol is the Ethereum Attestation Service (EAS).  EAS provides a secure, decentralized, and transparent system for verifying and validating various kinds of interactions within our knowledge ecosystem.
+## What is Composability?[​](https://docs.attest.sh/docs/core--concepts/composability#what-is-composability "Direct link to heading")
 
-Specifically, within the PoK protocol, the EAS applies to the life-cycle of a kEngram. This life-cycle includes the initial creation of kEngram, stages of value addition, their utilization by various users, and their evolution over time. The EAS authenticates each stage of this process, creating a reliable record of kEngram or SQ history and interactions.
+Composability is the art and science of assembling smaller components to create a more complex system. In the context of blockchain and attestations, it's about ensuring that individual attestations, or data points, can be seamlessly combined or referenced to form a cohesive narrative or dataset. This modular approach not only enhances the flexibility of data structures but also ensures that data remains interconnected, traceable, and verifiable.
 
-When a kEngram is first created, it is recorded via an attestation. The creator of the kEngram is also noted through EAS, attesting that they were the original contributor of that knowledge piece. As value is added to this kEngram—be it through more data, insights, revisions, or connections—each change is also captured through an attestation, creating a trail of evolution and accumulation of intellectual input.
+
+When a kEngram is first created, it is recorded via an attestation for the research question. The creator of the kEngram is also noted through EAS, attesting that they were the original contributor of that knowledge piece. As value is added to this kEngram—be it through more data, insights, revisions, or connections—each change is also captured through an attestation, creating a trail of evolution and accumulation of intellectual input. Other users can contribute to the research by referencing their research questions to any part of the original kEngram. By chaining these units of knowledge we can create a survival of the fittest situation where knowledge units that are highly relevant will be used regularly and acquire mulitple layers of proofs for its context.
 
 ![[Pasted image 20231113084825.png]]
 
@@ -151,62 +173,12 @@ In essence, the life-cycle of an Engram is a continual journey of knowledge crea
 The Proof-of-Knowledge mechanism as part of the DeSciWorld ecosystem uses blockchain technology for incentivizing contributions and verifying the accuracy and relevance of knowledge within the network. It offers a dynamic and adaptable system that caters to the varying needs and interests of users while continually encouraging a superior standard of shared knowledge.
 
 
+
 # SECTION II: Technical Overview
 
+## Utilizing Ethereum Attestation Service (EAS) in the Proof of Knowledge (PoK) Protocol
 
-### Defining a kEngram Schema for Proof of Knowledge
-
-Ethereum Attestation Service (EAS) schemas define the structure and type of data in an attestation. To facilitate the verification and recording process of an kEngram within the Proof of Knowledge (PoK) protocol, we need to create a schema that includes all the necessary details about each Engram.
-
-The PoK system is a method of linking data points to their original research question. This is achieved through the creation and usage of kEngrams, which are JSON objects that contain various pieces of structured information. 
-
-Here's an example schema for the kEngram record:
-
-```
-{
-    Schema # : "Incremental number",   //This number is auto-assigned & non-unique
-    UID: "Unique Identifier",          //This identifier is unique to the engram
-    Creator: "Creator's wallet address",  
-    Transaction_ID: "Ethereum transaction ID",  //Transaction ID for the engram creation
-    Resolver_Contract: "Optional contract ID",  //If any, for complex cases
-    Attestation_Count: "Number",       //The number of attestations made on/off chain
-    Schema: {
-        Engram_Title: "String",
-        Engram_Description: "String",
-        Engram_Creation_Timestamp: "UNIX Timestamp",
-        Related_Study_Questions: ["Array of Study Question UIDs"],
-        Knowledge_Field: "String", //The field of knowledge the Engram pertains 
-        Engram_Contributor: "User ID/Wallet address of the contributor",
-        Engram_Usage_Metrics: {
-            Frequency_Of_Appearance: "Number",
-            Frequency_Of_Selection: "Number",
-            Frequency_Of_References: "Number",
-            Helpfulness_Rating: "Float", //Scale of 1-5
-        },
-    }
-}
-```
-
-This schema clearly and concisely captures all necessary information about each kEngram. It records the kEngram's title, description, the timestamp of its creation, and its associated Study Questions. It also includes a field indicating which domain of knowledge the kEngram falls under. We attribute each kEngram to its contributor and track usage metrics to understand how frequently the kEngram is appearing and selected, how often it is referenced, and how helpful users find it.
-
-**Note:** This is an initial outline for a schema dedicated to recording a kEngram as a proof-of-knowledge. Depending on the specific requirements of your project, this schema could need to be extended or modified. Moreover, don't forget to consider gas efficiency when designing your schema - try to maintain a balance between the level of detail and efficiency.
-
-#### Validation of Engrams
-
-The validation process of individual kEngram happens continually throughout the lifecycle of its usage by a global network of AI interfaces. This mechanism operates as a form of a knowledge market, where the relevance, accuracy, and usefulness of a kEngram's information are tested and reaffirmed through its active usage and demand.
-
-AI interfaces, when querying a database or Knowledge Graph, will interact with and select Engrams based on their relevance and usefulness to the query or task at hand. These traces and records of interaction and usage then form a part of the 'lifecycle' of the Engram. Over time, Engrams that repeatedly prove to be beneficial and relevant will garner higher validation scores through their usage statistics.
-
-This method of validation leverages the dynamic and iterative abilities of AI - factoring in the frequency, nature, and context of an Engram's usage - to ascertain its value and authenticity within the Knowledge Graph. It serves to maintain the quality, relevance, and value of information in the Knowledge Graph, ensuring that the Engrams reflect validated, useful, and reliable units of knowledge.
-
-## Engram Creation
-
-kEngrams are JSON objects that serve as a bridge between individual data points attested over time and the original research question which serves as an achor point to determine coherence. They are designed to be flexible and adaptable, capable of containing any type of information as long as they reference each other. 
-
-The structure of a kEngram includes:
-- The Study question: This is the base note of the kEngram. It is the original research question that the data points are linked to.
-- The position of each data point on the X and Y axis: This helps in visualizing the data and understanding its relation to the research question.
-- Individual notes within an engram: These notes can contain any type of information, as long as they are referencing each other.
+The core component of our Proof of Knowledge (PoK) protocol is the Ethereum Attestation Service (EAS). EAS provides a secure, decentralized, and transparent system for verifying and validating various kinds of interactions within our knowledge ecosystem. Specifically, within the PoK protocol, the EAS applies to the life-cycle of a kEngram. This life-cycle includes the initial creation of kEngram, stages of value addition, their utilization by various users, and their evolution over time. The EAS authenticates each stage of this process, creating a reliable record of SQ history and interactions which can be used to reconstruct a kEngram.
 
 ## The Attestation Record[​](https://docs.attest.sh/docs/tutorials/make-an-attestation#the-attestation-record "Direct link to heading")
 
@@ -224,11 +196,44 @@ Each attestation record has the following fields:
 - `Revocation Time` - the time at which the attestation was revoked (if any).
 - `refUID` - An attestation that this attestation is referencing (if any).
 - `data`- The ABI encoded data for the attestation.
-## Engram Attestation
+## kEngram Attestations
 
-The PoK system allows for questions to be submitted onchain through the Ethereum Attestation Service (EAS). This service enables the attestation schema to be attached to a smart contract, guaranteeing ownership over further attestations of a particular question. 
+The PoK system allows for questions to be submitted onchain through the EAS. This service enables the attestation schema to be attached to a smart contract, guaranteeing ownership over further attestations of a particular question. 
 
-Attestations can be produced offchain for no gas cost, and can be submitted in bulk through merkle trees for the entire contents of the engram. The submission of attestations is facilitated through the DSW obsidian plugin.
+Attestations for data nodes can be produced offchain for no gas cost, and can be submitted in bulk through merkle trees for the entire contents of the engram. The submission of attestations is facilitated through the DSW obsidian plugin.
+## Defining a kEngram Schema for Proof of Knowledge
+
+Ethereum Attestation Service  schemas define the structure and type of data in an attestation. To facilitate the verification and recording process of an kEngram within the Proof of Knowledge (PoK) protocol, we need to create set of schemas that track different parts of the PoK life-cycle
+
+## Referenced Attestations: The Key[​](https://docs.attest.sh/docs/core--concepts/composability#referenced-attestations-the-key "Direct link to heading")
+
+The `refUID` (referenced attestation unique identifier) feature in attestations is the core building block of composability. It allows an attestation to reference another, weaving a tapestry of interconnected attestations. This interconnectedness ensures that each attestation can either add depth, context, or validation to another.
+
+The PoK system is a method of linking data points to their original research question thus creating an engram and then attesting to its use. This is achieved through combining a study question attestation, data points and relations that enforce a context and attestations for each successful retrieval of the data. Taking together, these attestations capture the sensemaking process of the user and serve as a proof of the knowledge being presented coming from a verifiable source. 
+
+Here's an example schema for the Research Question record:
+
+```
+{
+    Schema # : "Incremental number",   //This number is auto-assigned & non-unique
+    UID: "Unique Identifier",          //This identifier is unique to the engram
+    Creator: "Creator's wallet address",  
+    Transaction_ID: "Ethereum transaction ID",  //Transaction ID for the engram creation
+    Resolver_Contract: "Optional contract ID",  //If any, for complex cases
+    Attestation_Count: "Number",       //The number of attestations made on/off chain
+    Schema: {
+        Engram_Title: "String",
+        Engram_Description: "String",
+        Engram_Creation_Timestamp: "UNIX Timestamp",
+        Related_Study_Questions: ["Array of Study Question UIDs"],
+        Knowledge_Field: "String", //The field of knowledge the Engram pertains 
+    }
+}
+```
+
+This schema clearly and concisely captures all necessary information about each Study Question. It records the Study Question title, description, the timestamp of its creation, and its associated notes. It also includes a field indicating which domain of knowledge the kEngram falls under. We attribute each kEngram to its contributor through the SQ ownership creating a starting point from which to track usage metrics to understand how frequently the kEngram is appearing and selected, how often it is referenced, and how helpful users find it.
+
+**Note:** This is an initial outline for a schema dedicated to recording a kEngram as a proof-of-knowledge. Subject to change. this schema could need to be extended or modified. 
 
 ### Attester Resolver[​](https://docs.attest.sh/docs/tutorials/resolver-contracts#attester-resolver "Direct link to heading")
 
@@ -271,15 +276,17 @@ contract AttesterResolver is SchemaResolver {
 
 This functionality enables the creation of a hierarchy or a chain of attestations that depend on one another. In doing so, attestations can be organized in a more structured manner and their relationships can be easily understood.
 
-## Concept[​](https://docs.attest.sh/docs/tutorials/referenced-attestations#concept "Direct link to heading")
-
 An attestation can reference another attestation by including its unique identifier (UID) as the refUID field in the new attestation. The referenced attestation serves as a basis or prerequisite for the new attestation. This relationship can be used to represent dependencies between attestations, where one attestation's validity or relevance is improved upon by the existence and validity of another.
 
-## Engram Usage
 
-The PoK system utilizes a chat interface framework known as Khoj. This framework allows for a vector search of existing kEngrams to find relevant context. Once a research question is found, the related notes are also produced in order to regenerate the context for the LLM to use
+# Engram Usage
 
-Once the response is created. The user will see which notes were selected to create the response after which, the system will create an offchain attestation  and propagation using the Ceramic Network. This allows for efficient indexing of attestations, kEngram scoring, and royalty payout to creators.
+The PoK system utilizes a chat interface framework known as Khoj. This framework allows for a vector search of existing study questions to find their underlying data context. Once a research question is found, the related notes from the kEngram are also produced in order to regenerate the context for the LLM to use.
+
+Once the response is created. The user will be able to see which notes were selected to create the response and browse to the individual attestation record for that note. after which, the system will create an offchain attestation  and propagation using the Ceramic Network. This allows for efficient indexing of attestations, kEngram scoring, and royalty payout to creators.
+
+
+## kEngram Data Storage
 
 ## Ceramic Network[​](https://docs.attest.sh/docs/tutorials/ceramic-storage#ceramic-network "Direct link to heading")
 
@@ -301,7 +308,25 @@ ComposeDB is a graph database built on Ceramic that offers further composability
 
 For the purpose of this tutorial, we will be using Ceramic with ComposeDB to illustrate how developers can generate, store, and query off-chain attestations.
 
-## Proof of Knowledge DSW Issuance
+
+### Engram Retrieval
+
+kEngrams can be reconstructed as JSON objects that serve as a map between individual data points attested over time and the original research question, which is as an anchor point for coherence. In other words, the kEngram could be understood as a structured bundle of attestations which verify a unit of knowledge. They are designed to be flexible and adaptable, capable of containing any type of information as long as they reference each other. 
+
+### Validation of Engrams
+
+The validation process of individual kEngram happens continually throughout the lifecycle of its usage by a global network of AI interfaces. This mechanism operates as a form of a knowledge market, where the relevance, accuracy, and usefulness of a kEngram's information are tested and reaffirmed through its active usage and demand.
+
+AI interfaces, when querying a database or Knowledge Graph, will interact with and select Engrams based on their relevance and usefulness to the query or task at hand. These traces and records of interaction and usage then form a part of the 'lifecycle' of the Engram. Over time, Engrams that repeatedly prove to be beneficial and relevant will garner higher validation scores through their usage statistics.
+
+This method of validation leverages the dynamic and iterative abilities of AI - factoring in the frequency, nature, and context of an Engram's usage - to ascertain its value and authenticity within the Knowledge Graph. It serves to maintain the quality, relevance, and value of information in the Knowledge Graph, ensuring that the Engrams reflect validated, useful, and reliable units of knowledge.
+
+
+## The $DSW Token:  Knowledge Points 
+## Tokenomic Overview
+
+The DSW token is a utility token within the PoK system, designed to incentivize the creation and usage of kEngrams. The token is issued based on the number of attestations of usage a kEngram has generated.
+
 
 The Proof of Knowledge (PoK) protocol utilizes the DSW token as a utility token within its system. The DSW token plays a crucial role in incentivizing the creation of kEngrams.
 
@@ -313,9 +338,7 @@ The PoK system also allows for questions to be submitted onchain through the Eth
 
 Once an attestation is created, it is propagated with the Ceramic Network, which allows for efficient indexing of attestations, kEngram scoring, and royalty payout to creators. This integration with the Ceramic Network further enhances the utility of the DSW token, as it allows for a decentralized and efficient method of tracking and rewarding the usage of kEngrams.
 
-## Tokenomic Overview
 
-The DSW token is a utility token within the PoK system, designed to incentivize the creation and usage of kEngrams. The token is issued based on the number of attestations of usage a kEngram has generated.
 
 ## Token Issuance
 
